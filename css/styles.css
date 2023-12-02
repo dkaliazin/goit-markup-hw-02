@@ -1,43 +1,55 @@
 /*body*/
 body {
-  font-family: Roboto;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
 }
 /*h1-3'*/
 h1 {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1, 08;
   letter-spacing: 1.12px;
 }
 h2 {
-  font-family: Roboto;
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1, 12;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 h3 {
-  font-family: Roboto;
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.11;
   letter-spacing: 0.4px;
 }
 /*header*/
+header {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  /* justify-content: center;
+  align-items: center;
+  flex-shrink: 0;*/
+}
 .logo {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1, 67;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-web {
   color: #4d5ae5;
@@ -45,16 +57,133 @@ h3 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1, 67;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .nav-list {
-  color: #2e2f42;
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.nav-item {
+  color: currentColor;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+}
+.address-item {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+}
+/*lists*/
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*text*/
+p {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1, 5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/*section 1 landing*/
+.section-landing {
+  background: #2e2f42;
+}
+.langing-header {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 0714;
+  letter-spacing: 1.12px;
+}
+.landing-button {
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  /* Button Text */
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 5; /* 150% */
+  letter-spacing: 0.64px;
+}
+/*section 2 SPDT*/
+.section-spdt {
+  background-color: #fff;
+}
+/*section 3 Our Team*/
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  width: 264px;
+}
+/*section 4 Portfolio*/
+.section-portfolio {
+  background-color: #fff;
+}
+.portfolio-list {
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+  width: 360px;
+}
+/*footer*/
+footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 166; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1, 5; /* 150% */
   letter-spacing: 0.32px;
 }
