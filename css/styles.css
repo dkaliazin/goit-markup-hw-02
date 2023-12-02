@@ -58,24 +58,24 @@ header {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo-web {
+.logo-studio {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 67;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .nav-list {
-  color: currentColor;
+  color: #2e2f42;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -94,7 +94,7 @@ header {
   letter-spacing: 0.32px;
 }
 .nav-item:hover,
-:active {
+:focus {
   color: #404bbf;
 }
 .header-address {
@@ -108,6 +108,10 @@ header {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.address-item:hover,
+:focus {
+  color: #404bbf;
 }
 /*section 1 landing*/
 .section-landing {
@@ -135,7 +139,7 @@ header {
   letter-spacing: 0.64px;
 }
 .landing-button:hover,
-:active {
+:focus {
   background-color: #404bbf;
 }
 /*section 2 SPDT*/
@@ -143,6 +147,7 @@ header {
   background-color: #fff;
 }
 .spdt-header {
+  color: #2e2f42;
 }
 .spdt-paragraph {
 }
@@ -151,12 +156,14 @@ header {
   background-color: #f4f4fd;
 }
 .team-header {
+  color: #2e2f42;
   text-align: center;
 }
 .team-list {
   background: #fff;
 }
 .team-list-header {
+  color: #2e2f42;
   line-height: 1.2;
 }
 .team-list-paragraph {
@@ -168,6 +175,7 @@ header {
   background-color: #fff;
 }
 .portfolio-header2 {
+  color: #2e2f42;
   line-height: 1.11;
   text-align: center;
 }
@@ -175,6 +183,7 @@ header {
   background: var(--WHITE, #fff);
 }
 .portfolio-header3 {
+  color: #2e2f42;
   line-height: 1.2;
 }
 .portfolio-paragraph {
