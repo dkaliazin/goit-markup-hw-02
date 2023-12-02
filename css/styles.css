@@ -1,8 +1,9 @@
+/*body
 body{
   padding: 25 156 100 156px;
   font-family: Roboto, sans-serif;
 }
-/*headrers*/
+/*h1-3'*/
 h1 {
   font-family: Roboto;
   font-size: 56px;
@@ -27,4 +28,34 @@ h3{
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
+}
+/*header*/
+.logo{
+  color:  #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-web{
+  color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.nav-list{
+  color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
