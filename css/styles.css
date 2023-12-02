@@ -1,6 +1,7 @@
 /*body*/
 body {
-  color: #2e2f42;
+  color: #434455;
+  background-color: #fff;
   font-family: "Roboto", sans-serif;
 }
 /*h1-3'*/
@@ -33,26 +34,20 @@ h3 {
 }
 /*header*/
 header {
-  display: flex;
-  width: 1440px;
-  height: 72px;
-  /* justify-content: center;
-  align-items: center;
-  flex-shrink: 0;*/
 }
 .logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 67;
+  line-height: 1, 17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
 }
 .logo-web {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -78,7 +73,7 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 .address-item {
@@ -123,14 +118,7 @@ p {
 }
 .landing-button {
   cursor: pointer;
-  border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  /* Button Text */
+  background: #4d5ae5;
   color: var(--WHITE, #fff);
   font-family: Roboto;
   font-size: 16px;
@@ -148,21 +136,14 @@ p {
   background-color: #f4f4fd;
 }
 .team-list {
-  border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  width: 264px;
+  background: #fff;
 }
 /*section 4 Portfolio*/
 .section-portfolio {
   background-color: #fff;
 }
 .portfolio-list {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  width: 360px;
 }
 /*footer*/
 footer {
